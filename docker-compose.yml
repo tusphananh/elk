@@ -14,10 +14,10 @@ services:
       - esnet
   kibana:
     image: docker.elastic.co/kibana/kibana:7.13.2
-    volumes:
-      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
     ports:
       - 5601:5601
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
     networks:
       - esnet
   elasticsearch:
