@@ -29,7 +29,7 @@
     logstash:
       restart: always
       container_name: logstash
-      image:  registry.gitlab.com/gcalls/devops/development/logstash
+      image:  docker.elastic.co/logstash/logstash:7.7.0
       volumes:
         - ./pipelines-prod:/usr/share/logstash/pipeline:ro
         - ./config/pipelines-prod.yml:/usr/share/logstash/config/pipelines.yml:ro
