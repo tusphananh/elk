@@ -9,3 +9,5 @@
 - pipeline.id: logger
   path.config: "/usr/share/logstash/pipeline/gcalls_logger.conf"
 
+- pipeline.id: metricbeat
+  path.config: "/usr/share/logstash/pipeline/metricbeat.conf"
