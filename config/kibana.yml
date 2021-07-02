@@ -10,3 +10,4 @@ elasticsearch.logQueries: false
 # logging.dest: /var/log/kibana/kibana.log
 logging.verbose: false
 xpack.security.encryptionKey: "something_at_least_32_characters"
+xpack.encryptedSavedObjects.encryptionKey: "something_at_least_32_characters"
