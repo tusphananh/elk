@@ -14,6 +14,8 @@ and join the lines before running this command:
 docker exec es01 /bin/bash -c "bin/elasticsearch-setup-passwords \
 auto --batch --url https://es01:9200"
 
+--> Save all the passwords and user information to another environment
+
 4. Set ELASTICSEARCH_PASSWORD in the elastic-docker-tls.yml compose file 
 to the password generated for the kibana_system user.
 
