@@ -11,3 +11,6 @@
 
 - pipeline.id: metricbeat
   path.config: "/usr/share/logstash/pipeline/metricbeat.conf"
+
+- pipeline.id: thailog
+  path.config: "/usr/share/logstash/pipeline/thailog.conf"
