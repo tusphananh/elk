@@ -3,14 +3,14 @@
 #   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
 
 - pipeline.id: fusionpbx
-  path.config: "/usr/share/logstash/pipeline/fusionpbx.conf"
+  path.config: "/usr/share/logstash/pipeline/test.conf"
   pipeline.workers: 3
 
 - pipeline.id: logger
-  path.config: "/usr/share/logstash/pipeline/gcalls_logger.conf"
+  path.config: "/usr/share/logstash/pipeline/test_logger.conf"
 
 - pipeline.id: metricbeat
   path.config: "/usr/share/logstash/pipeline/metricbeat.conf"
 
 - pipeline.id: thailog
-  path.config: "/usr/share/logstash/pipeline/thailog.conf"
+  path.config: "/usr/share/logstash/pipeline/use_log.conf"
