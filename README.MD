@@ -1,4 +1,4 @@
-# GCALLS COMMUNITY - ELK
+# Elasticsearch - Logstash - Kibana
 
 ### Feature
 
