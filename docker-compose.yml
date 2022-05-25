@@ -13,7 +13,7 @@
         - http.port=9200
         - transport.profiles.default.port=9300
         - discovery.type=single-node
-        - "ELASTIC_PASSWORD=Gcalls2020#"
+        - "ELASTIC_PASSWORD=test#123"
       ulimits:
         memlock:
           soft: -1
@@ -48,9 +48,9 @@
         - "LS_JAVA_OPTS=-Xms512m -Xmx512m"
         - log.level=info
         - xpack.monitoring.elasticsearch.username=elastic
-        - xpack.monitoring.elasticsearch.password=Gcalls2020#
+        - xpack.monitoring.elasticsearch.password=test#123
         - xpack.management.elasticsearch.username=elastic
-        - xpack.management.elasticsearch.password=Gcalls2020#
+        - xpack.management.elasticsearch.password=test#123
       ulimits:
         memlock:
           soft: -1
